@@ -1,0 +1,77 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "vOSIrDzOM-wSHs3aEuO_a0-Z1LSfPmufnrhPxGYVVRw=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "nobody",
+    "Domain": "bf3ed99e3ac9",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sat, 4 Apr 2020 17:42:34 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@ikaa.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c470208ded5c041e640d3e07f6a939910@ikaa.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id vOSIrDzOM-wSHs3aEuO_a0-Z1LSfPmufnrhPxGYVVRw=@mailhog.example; Sat, 04 Apr 2020 17:42:34 +0000"
+      ],
+      "Return-Path": [
+        "\u003cnobody@bf3ed99e3ac9\u003e"
+      ],
+      "Subject": [
+        "New WordPress Site"
+      ],
+      "To": [
+        "miltonimven93@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "0:class-phpmailer.php"
+      ]
+    },
+    "Body": "Your new WordPress site has been successfully set up at:\r\n\r\nhttp://ikaa.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: ikaa\r\nPassword: The password you chose during installation.\r\nLog in here: http://ikaa.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Size": 743,
+    "MIME": null
+  },
+  "Created": "2020-04-04T17:42:34.286122771Z",
+  "MIME": null,
+  "Raw": {
+    "From": "nobody@bf3ed99e3ac9",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: miltonimven93@gmail.com\r\nSubject: New WordPress Site\r\nX-PHP-Originating-Script: 0:class-phpmailer.php\r\nDate: Sat, 4 Apr 2020 17:42:34 +0000\r\nFrom: WordPress \u003cwordpress@ikaa.local\u003e\r\nMessage-ID: \u003c470208ded5c041e640d3e07f6a939910@ikaa.local\u003e\r\nX-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nYour new WordPress site has been successfully set up at:\r\n\r\nhttp://ikaa.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: ikaa\r\nPassword: The password you chose during installation.\r\nLog in here: http://ikaa.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
